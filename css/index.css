@@ -10,8 +10,12 @@ nav ul {
     z-index: 99;
 }
 
+nav ul ul {
+  display: none;
+}
+
 nav ul li {
-  display: inline-block;
+  float: left;
   position:relative;
   left: 20%;
   background:none;
@@ -22,4 +26,23 @@ nav ul li a {
   padding: 25px 40px;
   color: #999;
   text-decoration: none;
+}
+
+nav ul ul li {
+  float: none;
+  position: relative;
+}
+
+nav ul ul {
+  background: #090e13;
+  border-radius: 0px;
+  position: absolute;
+}
+
+nav ul li:hover a {
+    color: #fff;
+}
+
+nav ul li:hover > ul {
+  display: block;
 }
