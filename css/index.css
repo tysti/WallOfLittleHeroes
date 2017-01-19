@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+}
+
+nav ul {
+    background-color: #222;
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    z-index: 99;
+}
+
+nav ul li {
+  display: inline-block;
+  position:relative;
+  left: 20%;
+  background:none;
+}
+
+nav ul li a {
+  display: block;
+  padding: 25px 40px;
+  color: #999;
+  text-decoration: none;
+}
