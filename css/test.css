@@ -71,7 +71,18 @@ nav ul li:hover a {
 }
 
 /*----- OUR PROJECT -----*/
-#diagram {
-	position:absolute;
-	left:15%;
+img#diagram {
+	width: 100%;
+}
+div#diagram-box {
+	float: left;
+	width: 70%;
+}
+div#diagram-caption {
+	border: 2px solid red;
+	padding: 0px;
+	display:none;
+	margin-left: 75%;
+	margin-top: auto;
+	margin-bottom: auto;
 }
