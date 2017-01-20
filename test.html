@@ -6,14 +6,15 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
+		<script src="js/imagemapster.js"></script>
+
 		<link rel="stylesheet" href="css/test.css"/>
 		<script src="js/jquery-1.11.1.js"></script>
 		<script src="js/test.js" defer></script>
 	</head>
 	<body>
 		<h1>Wall of Little Heroes</h1>
-		
+
 <!------------------------- Navigation Bar/Menu ------------------------------------->
 		<nav>
 		  <ul>
@@ -24,13 +25,13 @@
 			<li id="donate"><a href="#">Donate</a></li>
 		  </ul>
 		</nav>
-		
-<!------------------------- Home Page ------------------------------------->		
+
+<!------------------------- Home Page ------------------------------------->
 		<div id="home_page">
 			<h2 id="introduction">A site dedicated to raising awareness of and the support for a memorial to remember the little ones lost by abuse and neglect.</h2>
 			<p class="statistics">An average of four to seven children every day are lost to child abuse and neglect.</p>
 			<p class="statistics">
-			
+
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -44,7 +45,7 @@
 					<li data-target="#myCarousel" data-slide-to="8"></li>
 					<li data-target="#myCarousel" data-slide-to="9"></li>
 				</ol>
-				
+
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
 						<img src="img/park/park1.jpg" alt="Park Picture #1">
@@ -52,63 +53,63 @@
 							<p>Model Picture #1 of the Wall of Little Heroes Memorial Park</p>
 						</div>
 					</div>
-					
+
 					<div class="item">
 						<img src="img/park/park2.jpg" alt="Park Picture #2">
 						<div class="carousel-caption">
 							<p>Model Picture #2 of the Wall of Little Heroes Memorial Park</p>
 						</div>
 					</div>
-					
+
 					<div class="item">
 						<img src="img/park/park3(2).jpg" alt="Park Picture #3">
 						<div class="carousel-caption">
 							<p>Model Picture #3 of the Wall of Little Heroes Memorial Park</p>
 						</div>
 					</div>
-					
+
 					<div class="item">
 						<img src="img/park/park4.jpg" alt="Park Picture #4">
 						<div class="carousel-caption">
 							<p>Model Picture #4 of the Wall of Little Heroes Memorial Park</p>
 						</div>
 					</div>
-					
+
 					<div class="item">
 						<img src="img/park/park5.jpg" alt="Park Picture #5">
 						<div class="carousel-caption">
 							<p>Model Picture #5 of the Wall of Little Heroes Memorial Park</p>
 						</div>
 					</div>
-					
+
 					<div class="item">
 						<img src="img/park/park6.jpg" alt="Park Picture #6">
 						<div class="carousel-caption">
 							<p>Model Picture #6 of the Wall of Little Heroes Memorial Park</p>
 						</div>
 					</div>
-					
+
 					<div class="item">
 						<img src="img/park/park7.jpg" alt="Park Picture #7">
 						<div class="carousel-caption">
 							<p>Model Picture #7 of the Wall of Little Heroes Memorial Park</p>
 						</div>
 					</div>
-					
+
 					<div class="item">
 						<img src="img/park/park8.jpg" alt="Park Picture #8">
 						<div class="carousel-caption">
 							<p>Model Picture #8 of the Wall of Little Heroes Memorial Park</p>
 						</div>
 					</div>
-					
+
 					<div class="item">
 						<img src="img/park/park9.jpg" alt="Park Picture #9">
 						<div class="carousel-caption">
 							<p>Model Picture #9 of the Wall of Little Heroes Memorial Park</p>
 						</div>
 					</div>
-					
+
 					<div class="item">
 						<img src="img/park/park10.jpg" alt="Park Picture #10">
 						<div class="carousel-caption">
@@ -116,7 +117,7 @@
 						</div>
 					</div>
 				</div>
-				
+
 				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
 					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 					<span class="sr-only">Previous</span>
@@ -127,25 +128,39 @@
 				</a>
 			</div>
 		</div>
-		
+
 <!------------------------- About Us Page ------------------------------------->
 		<div id="about_page">
 			<p>Placeholder About Us Page</p>
 		</div>
-		
+
 <!------------------------- Our Project Page ------------------------------------->
 		<div id="project_page">
-			<p>Placeholder Project Page</p>
+			<h2>Wall of Little Heroes Memorial Park</h2>
+			<div id="map">
+				<image src="img/park/park_diagram.jpg" alt="A map of the park" width=80% usemap="#diagram-map">
+
+					<map name="diagram-map">
+					    <area shape="circle" data-name="paul,all" coords="36,46,121,131" href="#" />
+					    <area shape="circle" data-name="ringo,all" coords="113,76,198,161" href="#" />
+					    <area shape="circle" data-name="john,all" coords="192,50,277,135" href="#" />
+					    <area shape="circle" data-name="george,all" coords="262,60,347,145" href="#" />
+					</map>
+					<div id="diagram-caption" style="clear:both;border: 1px solid black; width: 400px; padding: 6px; display:none;">
+					     <div id="diagram-caption-header" style="font-style: italic; font-weight: bold; margin-bottom: 12px;"></div>
+					     <div id="diagram-caption-text"></div>
+					</div>
+			</div>
 		</div>
-		
+
 <!------------------------- Contact Us Page ------------------------------------->
 		<div id="contact_page">
 			<p>Placeholder Contact Us Page</p>
 		</div>
-		
+
 <!------------------------- Donate Page ------------------------------------->
 		<div id="donate_page">
 			<p>Placeholder Donate Page</p>
-		<div>		
+		<div>
 	</body>
 </html>
