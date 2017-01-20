@@ -4,29 +4,25 @@ $(function() {
 	var $homeButton = $('#home');
 	var $aboutButton = $('#about');
 	var $projectButton = $('#project');
-	var $contactButton = $('#contact');
-	var $donateButton = $('#donate');
+	var $involveButton = $('#involve');
 	
 	var $homePage = $('#home_page');
 	var $aboutPage = $('#about_page');
 	var $projectPage = $('#project_page');
-	var $contactPage = $('#contact_page');
-	var $donatePage = $('#donate_page');
+	var $involvePage = $('#involve_page');
 	
 	//default loading display - homepage is displayed
 	$homePage.show();
 	$aboutPage.hide();
 	$projectPage.hide();
-	$contactPage.hide();
-	$donatePage.hide();
+	$involvePage.hide();
 	
 	//when the home button is clicked, homepage is displayed and other pages are hidden
 	$homeButton.on('click', function() {
 		$homePage.show();
 		$aboutPage.hide();
 		$projectPage.hide();
-		$contactPage.hide();
-		$donatePage.hide();
+		$involvePage.hide();
 	});
 	
 	//when the about us button is clicked, about us page is displayed and other pages are hidden
@@ -34,8 +30,7 @@ $(function() {
 		$homePage.hide();
 		$aboutPage.show();
 		$projectPage.hide();
-		$contactPage.hide();
-		$donatePage.hide();
+		$involvePage.hide();
 	});
 	
 	//when the our project button is clicked, our project page is displayed and other pages are hidden
@@ -43,25 +38,15 @@ $(function() {
 		$homePage.hide();
 		$aboutPage.hide();
 		$projectPage.show();
-		$contactPage.hide();
-		$donatePage.hide();
+		$involvePage.hide();
 	});
 	
-	//when the contact us button is clicked, contact us page is displayed and other pages are hidden
-	$contactButton.on('click', function() {
+	//when the get involved button is clicked, get involved page is displayed and other pages are hidden
+	$involveButton.on('click', function() {
 		$homePage.hide();
 		$aboutPage.hide();
 		$projectPage.hide();
-		$contactPage.show();
-		$donatePage.hide();
+		$involvePage.show();
 	});
 	
-	//when the donate button is clicked, donate button is displayed and other pages are hidden
-	$donateButton.on('click', function() {
-		$homePage.hide();
-		$aboutPage.hide();
-		$projectPage.hide();
-		$contactPage.hide();
-		$donatePage.show();
-	});
 });
