@@ -13,6 +13,7 @@ h1 {
 #introduction {
 	font-size: 24px;
 }
+
 /*styling the photo-slider*/
 .carousel-inner img {
 	width: 50%;
@@ -20,7 +21,7 @@ h1 {
 }
 
 .carousel-caption p {
-
+	
 }
 
 @media (max-width: 800px) {
@@ -70,6 +71,28 @@ nav ul li:hover a {
     color: #fff;
 }
 
+/*styling the member photos*/
+.member {
+	float: left;
+	width: 27%;
+	height:500px;
+	margin: 25px;
+	border: solid;
+	overflow: hidden;
+}
+
+#member1 {
+	width: 100%;
+}
+#member3, #member6 {
+	width: 17%;
+	margin-left: 90px;
+}
+
+.member_photo {
+	height: 80%;
+}
+
 /*----- OUR PROJECT -----*/
 img#diagram {
 	width: 100%;
@@ -86,3 +109,8 @@ div#diagram-caption {
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
+
+
+
+
