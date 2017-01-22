@@ -9,21 +9,15 @@
  var inArea,
             map = $('#diagram'),
             captions = {
-                paul: ["Paul McCartney - Bass Guitar and Vocals",
-                    "Paul McCartney's song, Yesterday, recently voted the most popular song "
-                      + "of the century by a BBC poll, was initially composed without lyrics. "
-                      + "Paul used the working title 'scrambled eggs' before coming up with the final words."],
-                ringo: ["Ringo Starr - Drums",
-                  "Dear Prudence was written by John and Paul about Mia Farrow's sister, Prudence, "
-                    + "when she wouldn't come out and play with Mia and the Beatles at a religious retreat "
-                    + "in India."],
-                john: ["John Lennon - Guitar and Vocals",
-                  "In 1962, The Beatles won the Mersyside Newspaper's biggest band in Liverpool "
-                    + "contest principally because they called in posing as different people and voted "
-                    + "for themselves numerous times."],
-                george: ["George Harrison - Lead Guitar and Vocals",
-                 "The Beatles' last public concert was held in San Francisco's Candlestick "
-                    + "Park on August 29, 1966."]
+                restrooms: ["Public Restrooms",
+                    "These buildings will provide the park and the community with high quality restrooms as well as public showers in the main restrooms next to the Information Center."],
+                wall: ["The Wall",
+                  "Here is where the Memorial Wall will stand, displaying the names of children who have died as a result of child abuse. It will be surrounded by 50 flagpoles, each bearing the flag of one of the 50 states. Each time a child dies because of child abuse, the corresponding state flag will be put at half mast in honor of that child."],
+                john: ["Statue of John Walsh",
+                  "This will be a statue in honor of John Walsh. "],
+                teepee: ["Information Center",
+                 "This will be the largest standing teepee in the world, containing the information "
+                    + "center for the park."]
             },
             single_opts = {
                 fillColor: '000000',
