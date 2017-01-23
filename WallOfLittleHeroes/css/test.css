@@ -138,6 +138,7 @@ table, th, td {
 
 table {
 	border-collapse: collapse;
+	margin: auto;
 }
 
 #million, #thousand, #hundred, #cents {
