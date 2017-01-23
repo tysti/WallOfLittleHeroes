@@ -19,25 +19,28 @@
                   "These structures will be areas for guests to relax, eat, and enjoy the park."],
                 playground: ["Playground Area",
                   "As a park dedicated to children, The Wall of Little Heroes Memorial Park will feature equipment specially designed for children to play, learn, and explore."],
-                statue: ["Statues",
+                statue: ["Statues and Fountains",
                   "The park will feature several commemorative statues."],
                 helicopter: ["Helicopter Pad",
                   "The park will include a helicopter landing pad for transportation for both leisure and emergencies. "],
                 rv: ["RV Park",
                   "This will be an RV park with water, sewer, power, cable, and Wi-Fi." ],
+                entrance: ["Entrance Buildings",
+                  "These two buildings near the main entrance of the park will be a meeting place for park guests. The building at the entrance will be a venue for parties and gatherings that guests may have. The second building will feature a second-floor platform facing the memorial wall for speakers to address the guests there."
+                ],
                 },
             single_opts = {
                 fillColor: '000000',
                 fillOpacity: 0,
                 stroke: true,
                 strokeColor: 'ffbb00',
-                strokeWidth: 2
+                strokeWidth: 4
             },
             all_opts = {
                 fillColor: 'ffffff',
-                fillOpacity: 0.6,
+                fillOpacity: 0.3,
                 stroke: true,
-                strokeWidth: 2,
+                strokeWidth: 4,
                 strokeColor: 'ffffff'
             },
             initial_opts = {
