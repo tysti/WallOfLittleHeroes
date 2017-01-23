@@ -10,27 +10,30 @@
             map = $('#diagram'),
             captions = {
                 restrooms: ["Public Restrooms",
-                    "These buildings will provide the park and the community with high quality restrooms as well as public showers in the main restrooms next to the Information Center."],
+                  "These buildings will provide the park and the community with high quality restrooms as well as public showers in the main restrooms next to the Information Center."],
                 wall: ["The Wall",
                   "Here is where the Memorial Wall will stand, displaying the names of children who have died as a result of child abuse. It will be surrounded by 50 flagpoles, each bearing the flag of one of the 50 states. Each time a child dies because of child abuse, the corresponding state flag will be put at half mast in honor of that child."],
                 john: ["Statue of John Walsh",
                   "This will be a statue in honor of John Walsh. "],
                 teepee: ["Information Center",
-                 "This will be the largest standing teepee in the world, containing the information "
-                    + "center for the park."]
+                  "This will be the largest standing teepee in the world, containing the information center for the park."],
+                picnic: ["Picnic Areas",
+                  "These structures will be areas for guests to relax, eat, and enjoy the park."],
+                playground: ["Playground Equipment",
+                  "As a park dedicated to children, The Wall of Little Heroes Memorial Park will feature equipment specially designed for children to play, learn, and explore."]
             },
             single_opts = {
                 fillColor: '000000',
                 fillOpacity: 0,
                 stroke: true,
-                strokeColor: 'ff0000',
-                strokeWidth: 2
+                strokeColor: 'ffbb00',
+                strokeWidth: 4
             },
             all_opts = {
                 fillColor: 'ffffff',
-                fillOpacity: 0.6,
+                fillOpacity: 0.3,
                 stroke: true,
-                strokeWidth: 2,
+                strokeWidth: 4,
                 strokeColor: 'ffffff'
             },
             initial_opts = {
