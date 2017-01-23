@@ -5,6 +5,7 @@ body {
 	margin-right: 50px;
 }
 
+/*--------TITLE--------*/
 h1#name {
   text-align: center;
   color: #fff;
@@ -12,12 +13,7 @@ h1#name {
   letter-spacing: 4px;
 }
 
-.maintext {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	font-size: 1.2em;
-}
-
+/*--------HOME PAGE--------*/
 #introduction {
 	font-size: 24px;
 	font-weight: bold;
@@ -32,14 +28,10 @@ h1#name {
 	margin-right: 100px;
 }
 
-/*styling the photo-slider*/
+/*--------STYLING THE PHOTO-SLIDER--------*/
 .carousel-inner img {
 	width: 50%;
 	margin: auto;
-}
-
-.carousel-caption p {
-
 }
 
 @media (max-width: 800px) {
@@ -48,23 +40,15 @@ h1#name {
 	}
 }
 
-/*styling navigation bar*/
+/*--------STYLING THE NAVIGATION BAR--------*/
 nav ul {
-    /* dark menu background */
     background-color: #090e13;
-    /* remove default style for ul */
     list-style: none;
-    /* each ul should be in a block */
     display: inline-block;
-    /* expand to width of parent container */
     width: 100%;
-    /* should render on top of everything else */
     z-index: 99;
 }
 
-/* let's float the elements so they appear */
-/* inline with relative positioning and as */
-/* far to the left as possible             */
 nav ul li {
   float:left;
   position:relative;
@@ -72,36 +56,33 @@ nav ul li {
   background:none;
 }
 
-/* let's make each menu link have a nice     */
-/* padded box to live in. Let's also fix the */
-/* color of the displayed menu item.         */
 nav ul li a {
   display: block;
   padding: 25px 60px;
   font-size: 1.3em;
 }
 
-/* a CSS pseudo class that will activate when */
-/* the mouse is "hovering" over a list item in */
-/* the top level of the nav menu.             */
 nav ul li a:link {
     color: #fff;
 	text-decoration: none;
 }
+
 nav ul li a:visited {
     color: #fff;
 	text-decoration: none;
 }
+
 nav ul li a:hover {
     color: #ffbb00;
 	text-decoration: none;
 }
 
-nav ul li a:active {
-	color: blue;
+nav ul li.current {
+	border: solid;
+	border-color: white;
 }
 
-/*about us page*/
+/*--------ABOUT US PAGE--------*/
 .about {
 	margin-left: 100px;
 	margin-right: 100px;
@@ -120,7 +101,7 @@ nav ul li a:active {
 	text-align: center;
 }
 
-/*styling the member photos*/
+/*--------STYLING THE MEMBER PHOTOS--------*/
 .member {
 	float: left;
 	width: 20%;
@@ -144,6 +125,12 @@ nav ul li a:active {
 }
 
 /*----- OUR PROJECT -----*/
+.maintext {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 1.2em;
+}
+
 .project, .maintext {
 	margin-right: 100px;
 	margin-left: 100px;
@@ -173,7 +160,7 @@ div#diagram-caption {
 }
 
 
-/*donation page*/
+/*--------GET INVOLVED PAGE--------*/
 table, th, td {
 	border: solid;
 	border-width: 2px;
@@ -230,7 +217,7 @@ th, td {
 	width: 100%;
 }
 
-/*footer*/
+/*--------FOOTER--------*/
 footer {
 	background-color: #090e13;
 	margin-top: 20px;
