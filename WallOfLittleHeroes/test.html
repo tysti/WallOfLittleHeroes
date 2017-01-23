@@ -11,7 +11,8 @@
 		<script src="js/jquery-1.11.1.js"></script>
 		<script src="js/test.js" defer></script>
 		<script src="js/imagemapster.js"></script>
-		<script src="js/diagram.js"></script>
+		<script src="js/diagram.js" defer></script>
+		<script src="js/budget_sheet_loader.js" defer></script>
 	</head>
 	<body>
 		<h1>Wall of Little Heroes</h1>
@@ -133,70 +134,140 @@
 		<div id="about_page">
 			<h2 id="mission_statement">Our Mission Statement:</h2>
 				<p class="mission_statement">To remember the children who have died due to child abuse! By using this information,
-				we will educate the public as to what to look for, whta to listen for and who to contact in the event of a child needing your help.
+				we will educate the public as to what to look for, what to listen for and who to contact in the event of a child needing your help.
 				Through education we can help prevent child abuse and death due to child abuse. We will not stop until child abuse has been stopped.</p>
 			<h2 id="goal">Our Goal:</h2>
 				<p class="goal">To help educate people about the victims of child abuse and to raise money to create a national memorial
 				for those who have been taken away from us by those who should have been their caregivers.</p>
 
-			<div id="member1">
-
+			<h2 id="members">Officers and Board Members:</h2>
+			<div class="member">
+				<img src="img/members/Robert_Carter.jpg" id="member1" class="member_photo" alt="Robert Carter - President and CEO">
+				<h3 class="description">Robert Carter</h3>
+				<p class="description">CEO & President</p>
 			</div>
 
-			<div id="member2">
-
+			<div class="member">
+				<img src="img/members/Kathleen_Carter1.jpg" class="member_photo" alt="Kathleen Carter - Vice-President">
+				<h3 class="description">Kathleen Carter</h3>
+				<p class="description">Vice-President</p>
 			</div>
 
-			<div id="member3">
-
+			<div id="member3" class="member">
+				<img src="img/members/Denise_McKinnon.jpg" class="member_photo" alt="Denise McKinnon - Secretary">
+				<h3 class="description">Denise McKinnon</h3>
+				<p class="description">Secretary</p>
 			</div>
 
-			<div id="member4">
-
+			<div class="member">
+				<img src="img/members/Christine_Shaffer.jpg" class="member_photo" alt="Christine Shaffer - Treasurer">
+				<h3 class="description">Christine Shaffer</h3>
+				<p class="description">Treasurer</p>
 			</div>
 
-			<div id="member5">
+			<div class="member">
+				<img src="img/members/LeRoy_McKinnon1.jpg" class="member_photo" alt="LeRoy McKinnon - Board Member">
+				<h3 class="description">LeRoy McKinnon</h3>
+				<p class="description">Board Member</p>
 			</div>
 
-			<div id="member6">
+			<div id="member6" class="member">
+				<img src="img/members/Herman_Hatter.jpg" class="member_photo" alt="Herman Hatter - Board Member">
+				<h3 class="description">Herman Hatter</h3>
+				<p class="description">Board Member</p>
 			</div>
 
-			<div id="member7">
+			<div class="member">
+				<img src="img/members/Robert_Jackson.jpg" class="member_photo" alt="Robert Jackson - Board Member">
+				<h3 class="description">Robert Jackson</h3>
+				<p class="description">Board Member</p>
 			</div>
 
-			<div id="member8">
+			<div class="member">
+				<img src="img/members/Andrea_Hawes1.jpg" class="member_photo" alt="Andrea Hawes - Board Member">
+				<h3 class="description">Andrea Hawes</h3>
+				<p class="description">Board Member</p>
 			</div>
 
-			<div id="member9">
+			<div class="member">
+				<img src="img/members/Shana_Stickel1.jpg" class="member_photo" alt="Shane Stickel - Board Member">
+				<h3 class="description">Shana Stickel</h3>
+				<p class="description">Board Member</p>
 			</div>
 		</div>
 
 <!------------------------- Our Project Page ------------------------------------->
 		<div id="project_page">
-			<img id="diagram" src="img/park/park_diagram.jpg" style="width:70%;" usemap="#diagram-map">
-				<map name="diagram-map">
-				    <area shape="rect" data-name="paul,all" coords="36,46,121,131" href="#" />
-				    <area shape="rect" data-name="ringo,all" coords="113,76,198,161" href="#" />
-				    <area shape="rect" data-name="john,all" coords="192,50,277,135" href="#" />
-				    <area shape="rect" data-name="george,all" coords="262,60,347,145" href="#" />
-				</map>
-
-				<div id="diagram-caption" style="clear:both;border: 2px solid red; width: 400px; padding: 6px; display:none;">
-				     <div id="diagram-caption-header" style="font-style: italic; font-weight: bold; margin-bottom: 12px;"></div>
-				     <div id="diagram-caption-text"></div>
+			<h2>Our Project</h2>
+			<div class="maintext">
+				The Wall of Little Heroes Memorial Park will be a National Landmark dedicated to honoring the children who have lost their lives to child abuse.
+			</div>
+			<div id="diagram-box">
+				<img id="diagram" src="img/park/park_diagram.jpg" usemap="#diagram-map">
+					<map name="diagram-map">
+							<area shape="circle" data-name="restrooms,all" coords="1440,200,60" href="#" />
+							<area shape="circle" data-name="restrooms,all" coords="430,730,60" href="#" />
+							<area shape="circle" data-name="restrooms,all" coords="1340,710,60" href="#" />
+							<area shape="circle" data-name="teepee,all" coords="1255,515,105" href="#" />
+							<area shape="circle" data-name="picnic,all" coords="260,780,60" href="#" />
+							<area shape="circle" data-name="picnic,all" coords="460,1150,60" href="#" />
+							<area shape="circle" data-name="picnic,all" coords="980,1160,60" href="#" />
+							<area shape="circle" data-name="picnic,all" coords="1150,780,60" href="#" />
+							<area shape="circle" data-name="playground,all" coords="1400,960,80" href="#" />
+							<area shape="circle" data-name="playground,all" coords="920,750,60" href="#" />
+							<area shape="circle" data-name="statue,all" coords="710,900,60" href="#" />
+							<area shape="circle" data-name="statue,all" coords="440,540,60" href="#" />
+							<area shape="circle" data-name="statue,all" coords="980,550,60" href="#" />
+							<area shape="circle" data-name="statue,all" coords="1641,1042,60" href="#" />
+							<area shape="circle" data-name="statue,all" coords="560,400,60" href="#" />
+							<area shape="circle" data-name="statue,all" coords="870,400,60" href="#" />
+							<area shape="circle" data-name="wall,all" coords="710,900,150" href="#" />
+							<area shape="circle" data-name="helicopter,all" coords="270,1030,60" href="#" />
+					</map>
+			</div>
+			<div id="diagram-caption">
+					 <div id="diagram-caption-header" style="font-style: italic; font-weight: bold; margin-bottom: 12px;"></div>
+					 <div id="diagram-caption-text"></div>
 				</div>
-		</div>
+			</div>
 
 <!------------------------- Get Involved Page ------------------------------------->
 		<div id="involve_page">
-<h3>It is our dream to make Wall of Little Heroes a reality
-	and for that we need your help.</h3>
-<h2>How to help:</h2>
-<p><a href="http://kickstarter.com">click here</a> to donate.
-		or contact any of the following people:</p>
-			<p>Wall of Little Heroes is federally registered as a 501-C3 Non-Profit Corporation.
-				<br/>We are also registered with WA State.</p>
+			<h3>It is our dream to make Wall of Little Heroes a reality and for that we need your help.</h3>
+				<h2>How to help:</h2>
+					<p><b><i>All</i></b> donations go towards the project.<br/>
+						<a href="http://kickstarter.com">Click here</a> to donate
+						or contact any of the following people:</p>
+						<div class="contact_info">
+							<img src="img/members/Robert_Carter.jpg"id="member1" class="contact_photo" alt="Robert Carter - President and CEO">
+							<h3 class="description">Robert Carter</h3>
+							<p class="description">CEO & President</p>
+							<p class="description">Phone number: 509-217-0147</p>
+						</div>
+						<div class="contact_info">
+							<img src="img/members/Kathleen_Carter.jpg"id="member1" class="contact_photo" alt="Robert Carter - President and CEO">
+							<h3 class="description">Robert Carter</h3>
+							<p class="description">CEO & President</p>
+							<p class="description">Phone number: 509-217-0147</p>
+						</div>
+						<div class="contact_info">
+							<img src="img/members/LeRoy_McKinnon1.jpg"id="member1" class="contact_photo" alt="Robert Carter - President and CEO">
+							<h3 class="description">Robert Carter</h3>
+							<p class="description">CEO & President</p>
+							<p class="description">Phone number: 509-217-0147</p>
+						</div>
+			<div class="budget_sheet">
+				<a id="get-budget_sheet" href="data/budget_sheet.html">Click to see the budget sheet for the memorial park.</a>
+			</div>
+			<h5 class="involve">Wall of Little Heroes is federally registered as a 501-C3 Non-Profit Corporation.
+			<br/>We are also registered with WA State.</h5>
 		</div>
 
+		<footer>
+			<div id="footer">
+				<p>Content copyright 2017.</p>
+				<p>All rights reserved.</p>
+			</div>
+		</footer>
 	</body>
 </html>
