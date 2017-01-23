@@ -126,7 +126,14 @@ div#diagram-caption {
 	border: 4px solid #ffbb00;
 	padding: 5px;
 	display:none;
+	position: absolute;
 	margin-left: 75%;
-	margin-top: auto;
-	margin-bottom: auto;
+  top: 50%;
+  transform: translateY(-50%)
+
+}
+div#map {
+	position: relative;
+	display: inline-block;
+	width: 100%;
 }
