@@ -8,10 +8,15 @@ body {
 h1 {
   text-align: center;
   color: #fff;
+  font-size: 50px;
+}
+
+#name {
+	letter-spacing: 4px;
 }
 
 h2 {
-
+	
 }
 
 .maintext {
@@ -22,6 +27,16 @@ h2 {
 
 #introduction {
 	font-size: 24px;
+	font-weight: bold;
+}
+
+#statistics, #call_to_action {
+	font-size: 18px;
+}
+
+.home {
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 /*styling the photo-slider*/
@@ -31,7 +46,7 @@ h2 {
 }
 
 .carousel-caption p {
-
+	
 }
 
 @media (max-width: 800px) {
@@ -89,6 +104,29 @@ nav ul li a:hover {
 	text-decoration: none;
 }
 
+nav ul li a:active {
+	color: blue;
+}
+
+/*about us page*/
+.about {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+#mission_statement, #goal, #members{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#mission_statement_text, #goal_text {
+	font-size: 18px;
+}
+
+#members {
+	text-align: center;
+}
+
 /*styling the member photos*/
 .member {
 	float: left;
@@ -113,6 +151,11 @@ nav ul li a:hover {
 }
 
 /*----- OUR PROJECT -----*/
+.project, .maintext {
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
 img#diagram {
 	width: 100%;
 }
@@ -152,10 +195,21 @@ th, td {
 	padding: 2px;
 }
 
+.involve {
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
 /*footer*/
 footer {
 	background-color: gray;
 	margin-top: 20px;
 	padding: 10px;
+	width: 100%;
 	float: left;
 }
+
+#copyright {
+	text-align: center;
+}
+
