@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-	
+
 }
 
 .maintext {
@@ -46,7 +46,7 @@ h2 {
 }
 
 .carousel-caption p {
-	
+
 }
 
 @media (max-width: 800px) {
@@ -159,6 +159,12 @@ nav ul li a:active {
 img#diagram {
 	width: 100%;
 }
+div#map {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
 div#diagram-box {
 	float: left;
 	width: 70%;
@@ -168,8 +174,9 @@ div#diagram-caption {
 	padding: 5px;
 	display:none;
 	margin-left: 75%;
-	margin-top: auto;
-	margin-bottom: auto;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
 }
 
 
@@ -212,4 +219,3 @@ footer {
 #copyright {
 	text-align: center;
 }
-
