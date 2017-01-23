@@ -5,18 +5,11 @@ body {
 	margin-right: 50px;
 }
 
-h1 {
+h1#name {
   text-align: center;
   color: #fff;
   font-size: 50px;
-}
-
-#name {
-	letter-spacing: 4px;
-}
-
-h2 {
-
+  letter-spacing: 4px;
 }
 
 .maintext {
@@ -188,6 +181,7 @@ table, th, td {
 
 table {
 	border-collapse: collapse;
+	margin: auto;
 }
 
 #million, #thousand, #hundred, #cents {
@@ -207,15 +201,76 @@ th, td {
 	margin-right: 100px;
 }
 
+.involved
+{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.contact_info
+{
+	float: left;
+	width: 20%;
+	height:400px;
+	margin: 20px 70px 20px 70px;
+	border: solid;
+}
+
+.contact_photo
+{
+	height: 70%;
+	width: 100%;
+}
+
+.budget_sheet
+{
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
 /*footer*/
 footer {
-	background-color: gray;
+	background-color: #090e13;
 	margin-top: 20px;
 	padding: 10px;
 	width: 100%;
 	float: left;
 }
 
+#address, #phone_number, #donate {
+	width: 33%;
+	float: left;
+	font-size: 16px;
+}
+
+#phone_number {
+	text-align: center;
+}
+
+#donate {
+	text-align: right;
+}
+
 #copyright {
 	text-align: center;
 }
+
+a.link:link {
+    color: blue;
+	text-decoration: none;
+}
+
+a.link:visited {
+    color: red;
+	text-decoration: none;
+}
+
+a.link:hover {
+    color: #ffbb00;
+	text-decoration: none;
+}
+
+
+
