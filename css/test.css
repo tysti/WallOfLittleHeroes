@@ -209,6 +209,14 @@ th, td {
 	width: 100%;
 }
 
+p.involve {
+	font-size: 18px;
+}
+
+a.involve, .involved {
+	font-size: 18px;
+}
+
 .contact_info
 {
 	float: left;
