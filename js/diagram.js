@@ -14,7 +14,7 @@
                 wall: ["The Wall",
                   "Here is where the Memorial Wall will stand, displaying the names of children who have died as a result of child abuse. Surrounding this wall will be 50 flagpoles, each bearing the flag of one of the 50 states. Each time a child dies as a victim of child abuse, the corresponding state flag will be put at half mast in honor of that child."],
                 teepee: ["Information Center",
-                  "This teepee will stand over 250 feet tall and will serve as the Information Center for the park. The first floor of this building will consist mainly of shops for food, drinks, and gifts. The second floor will showcase a computer system which models the rates of child abuse in the United States. Since security is a primary value of this Memorial Park, the third floor will house the park security headquarters in order to ensure that this space is a safe haven for everyone."],
+                  "This teepee will stand over 250 feet tall and will serve as the Information Center. The first floor of this building will consist mainly of shops for food, drinks, and gifts. The second floor will showcase a computer system which models the rates of child abuse in the United States. Since security is a primary value of this Memorial Park, the third floor will house the park security headquarters in order to ensure that this space is a safe haven for everyone."],
                 picnic: ["Picnic Pavilions",
                   "These structures will be areas for guests to relax, eat, and enjoy the park. There will be four of these picnic areas to provide guests with plenty of space."],
                 playground: ["Playground Area",
