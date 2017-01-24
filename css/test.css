@@ -231,6 +231,13 @@ th, td {
 	width: 100%;
 }
 
+#certification {
+	width: 40%;
+	display: block;
+	height: 600px;
+	margin: auto;
+}
+
 /*--------FOOTER--------*/
 footer {
 	background-color: #090e13;
