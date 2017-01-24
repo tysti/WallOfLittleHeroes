@@ -78,8 +78,8 @@ nav ul li a:hover {
 }
 
 nav ul li.current {
-	border: solid;
-	border-color: white;
+	outline: solid 2px;
+	outline-color: #ffbb00;
 }
 
 /*--------ABOUT US PAGE--------*/
@@ -157,6 +157,20 @@ div#diagram-caption {
 	position: absolute;
 	top:50%;
 	transform: translateY(-50%);
+	font-size: 1.1em;
+}
+
+div#diagram-caption-default {
+	border: 4px solid #ffbb00;
+	padding: 5px;
+	margin-left: 75%;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	font-style: italic;
+	font-weight: bold;
+	font-size:1.1em;
+	text-align: center;
 }
 
 
@@ -245,19 +259,16 @@ footer {
 }
 
 a.link:link {
-    color: blue;
+    color: #ffbb00;
 	text-decoration: none;
 }
 
 a.link:visited {
-    color: red;
+    color: #ffbb00;
 	text-decoration: none;
 }
 
 a.link:hover {
     color: #ffbb00;
-	text-decoration: none;
+		text-decoration: underline;
 }
-
-
-
