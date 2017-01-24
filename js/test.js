@@ -12,10 +12,12 @@ $(function() {
 	var $involvePage = $('#involve_page');
 	
 	//default loading display - homepage is displayed
-	$homePage.addClass('current').show();
+	$homePage.show();
 	$aboutPage.hide();
 	$projectPage.hide();
 	$involvePage.hide();
+	
+	$homeButton.addClass('current');
 	
 	//when the home button is clicked, homepage is displayed and other pages are hidden
 	//the current class will also be added to the home button and taken away from the others
