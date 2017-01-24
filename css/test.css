@@ -52,6 +52,11 @@ h1#name {
 	}
 }
 
+#teepee {
+	width: 22.28%;
+	margin: auto;
+}
+
 /*--------STYLING THE NAVIGATION BAR--------*/
 nav ul {
     background-color: #090e13;
@@ -109,15 +114,15 @@ nav ul li.current {
 /*--------STYLING THE MEMBER PHOTOS--------*/
 .member {
 	float: left;
-	width: 20%;
+	width: 18%;
 	height:400px;
-	margin: 20px 70px 20px 70px;
-	border: solid;
+	margin-left: 5.3%;
+	margin-top: 25px;
+	margin-bottom: 20px;
 }
 
 #member3, #member6 {
-	width: 17%;
-	margin-left: 90px;
+	width: 15%;
 }
 
 .member_photo {
@@ -206,8 +211,10 @@ a.involve {
 	float: left;
 	width: 20%;
 	height:400px;
-	margin: 20px 70px 20px 70px;
-	border: solid;
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*margin: 20px 70px 20px 70px;*/
 }
 
 .contact_photo
