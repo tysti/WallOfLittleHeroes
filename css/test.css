@@ -47,6 +47,7 @@ nav ul {
     list-style: none;
     display: inline-block;
     width: 100%;
+		margin: auto;
     z-index: 99;
 }
 
@@ -144,7 +145,6 @@ div#map {
 	display: inline-block;
 	left:5%;
 	width: 90%;
-	border: solid green;
 }
 
 div#diagram-box {
