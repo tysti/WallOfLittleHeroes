@@ -175,12 +175,12 @@ div#diagram-caption {
 	border: 4px solid #ffbb00;
 	padding: 5px;
 	display:none;
-	margin-left: 75%;
+	margin-left: 73%;
 	position: absolute;
 	top:50%;
 	transform: translateY(-50%);
 	font-size: 1.1em;
-	max-height:100%;
+	max-height:120%;
  	overflow:auto;
 }
 
