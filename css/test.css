@@ -21,6 +21,13 @@ body {
 }
 
 /*--------TITLE--------*/
+#logo {
+	position: relative;
+	width: 42%;
+	left: 29%;
+	padding: 30px;
+}
+
 h1#name {
   text-align: center;
   color: #fff;
@@ -58,25 +65,36 @@ h1#name {
 }
 
 /*--------STYLING THE NAVIGATION BAR--------*/
+nav {
+	background-color: #090e13;
+  width: 100%;
+}
 nav ul {
-    background-color: #090e13;
     list-style: none;
     display: inline-block;
-    width: 100%;
-	margin: auto;
+		position: relative;
+		width: 60%;
+		left: 20%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding-top: 5px;
+		padding-bottom: 5px;
     z-index: 99;
 }
 
 nav ul li {
-  float:left;
+	display:inline-block;
+	text-align: center;
   position:relative;
-  left: 10%;
   background:none;
+	z-index: 98;
+	width: 24%;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 nav ul li a {
   display: block;
-  padding: 25px 60px;
   font-size: 1.3em;
 }
 
